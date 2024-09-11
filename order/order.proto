@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "./orderspb";
+option go_package = "./genproto/orderspb";
 
 service OrdersService{
     rpc CreateOrders(CreateOrdersRequest) returns (OrdersResponse);
